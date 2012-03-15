@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../fann_cl.c">
+   </FileRef>
+   <FileRef
+      location = "group:../fann_cl.h">
+   </FileRef>
+   <FileRef
+      location = "group:../fann_cl_train.c">
+   </FileRef>
+   <FileRef
+      location = "group:../fann_cl_kernel.c">
+   </FileRef>
+   <FileRef
+      location = "group:../fann_cl_run.c">
+   </FileRef>
+   <FileRef
+      location = "group:../fann.c">
+   </FileRef>
+   <FileRef
+      location = "group:../fann_cl_train.h">
+   </FileRef>
+   <FileRef
+      location = "group:../fann_cl_ann.c">
+   </FileRef>
+   <FileRef
+      location = "group:../fann_cl_ann.h">
+   </FileRef>
+   <FileRef
+      location = "group:../fann_cl_run.h">
+   </FileRef>
+   <FileRef
+      location = "group:../fann_cl_kernel.h">
+   </FileRef>
+   <FileRef
+      location = "self:fann.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "New Group">
+   </Group>
+</Workspace>

@@ -6,14 +6,265 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		47A18518150FE42100AF0521 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A184F9150FE0E100AF0521 /* OpenCL.framework */; };
+		47E6CA6715117B69005E6371 /* compat_time.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA3A15117B69005E6371 /* compat_time.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA6815117B69005E6371 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA3B15117B69005E6371 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA6915117B69005E6371 /* fann.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA3C15117B69005E6371 /* fann.h */; };
+		47E6CA6A15117B69005E6371 /* fann_activation.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA3D15117B69005E6371 /* fann_activation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA6B15117B69005E6371 /* fann_cascade.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA3E15117B69005E6371 /* fann_cascade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA6C15117B69005E6371 /* fann_data.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA3F15117B69005E6371 /* fann_data.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA6D15117B69005E6371 /* fann_error.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA4015117B69005E6371 /* fann_error.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA6E15117B69005E6371 /* fann_generic.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA4115117B69005E6371 /* fann_generic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA6F15117B69005E6371 /* fann_gng.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA4215117B69005E6371 /* fann_gng.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA7015117B69005E6371 /* fann_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA4315117B69005E6371 /* fann_internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA7115117B69005E6371 /* fann_io.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA4415117B69005E6371 /* fann_io.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA7215117B69005E6371 /* fann_recurrent.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA4515117B69005E6371 /* fann_recurrent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA7315117B69005E6371 /* fann_som.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA4615117B69005E6371 /* fann_som.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA7415117B69005E6371 /* fann_sparse.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA4715117B69005E6371 /* fann_sparse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA7515117B69005E6371 /* fann_train.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA4815117B69005E6371 /* fann_train.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA7615117B69005E6371 /* floatfann.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA4915117B69005E6371 /* floatfann.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA7715117B69005E6371 /* fann.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA4C15117B69005E6371 /* fann.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E6CA7A15117B69005E6371 /* fann_cl.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA5115117B69005E6371 /* fann_cl.h */; };
+		47E6CA7C15117B69005E6371 /* fann_cl_ann.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA5315117B69005E6371 /* fann_cl_ann.h */; };
+		47E6CA7E15117B69005E6371 /* fann_cl_kernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA5515117B69005E6371 /* fann_cl_kernel.h */; };
+		47E6CA8015117B69005E6371 /* fann_cl_run.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA5715117B69005E6371 /* fann_cl_run.h */; };
+		47E6CA8215117B69005E6371 /* fann_cl_train.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E6CA5915117B69005E6371 /* fann_cl_train.h */; };
+		47E6CA8315117B86005E6371 /* fann_base.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA2D15117B69005E6371 /* fann_base.c */; };
+		47E6CA8415117B86005E6371 /* fann_cascade.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA2E15117B69005E6371 /* fann_cascade.c */; };
+		47E6CA8515117B86005E6371 /* fann_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA2F15117B69005E6371 /* fann_error.c */; };
+		47E6CA8615117B86005E6371 /* fann_generic.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA3015117B69005E6371 /* fann_generic.c */; };
+		47E6CA8715117B86005E6371 /* fann_gng.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA3115117B69005E6371 /* fann_gng.c */; };
+		47E6CA8815117B86005E6371 /* fann_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA3215117B69005E6371 /* fann_io.c */; };
+		47E6CA8915117B86005E6371 /* fann_recurrent.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA3315117B69005E6371 /* fann_recurrent.c */; };
+		47E6CA8A15117B86005E6371 /* fann_som.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA3415117B69005E6371 /* fann_som.c */; };
+		47E6CA8B15117B86005E6371 /* fann_sparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA3515117B69005E6371 /* fann_sparse.c */; };
+		47E6CA8D15117B86005E6371 /* fann_train_data.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA3715117B69005E6371 /* fann_train_data.c */; };
+		47E6CA8E15117B86005E6371 /* floatfann.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA3815117B69005E6371 /* floatfann.c */; };
+		47E6CA8F15117BA2005E6371 /* fann.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA4F15117B69005E6371 /* fann.c */; };
+		47E6CA9015117BA2005E6371 /* fann_cl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA5015117B69005E6371 /* fann_cl.cpp */; };
+		47E6CA9115117BA2005E6371 /* fann_cl_ann.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA5215117B69005E6371 /* fann_cl_ann.c */; };
+		47E6CA9215117BA2005E6371 /* fann_cl_kernel.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA5415117B69005E6371 /* fann_cl_kernel.c */; };
+		47E6CA9315117BA2005E6371 /* fann_cl_run.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA5615117B69005E6371 /* fann_cl_run.c */; };
+		47E6CA9415117BA2005E6371 /* fann_cl_train.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E6CA5815117B69005E6371 /* fann_cl_train.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47A184F9150FE0E100AF0521 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenCL.framework; sourceTree = DEVELOPER_DIR; };
+		47A18514150FE3F900AF0521 /* libfann_opencl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfann_opencl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E6CA2C15117B69005E6371 /* fann.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann.c; sourceTree = "<group>"; };
+		47E6CA2D15117B69005E6371 /* fann_base.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_base.c; sourceTree = "<group>"; };
+		47E6CA2E15117B69005E6371 /* fann_cascade.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_cascade.c; sourceTree = "<group>"; };
+		47E6CA2F15117B69005E6371 /* fann_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_error.c; sourceTree = "<group>"; };
+		47E6CA3015117B69005E6371 /* fann_generic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_generic.c; sourceTree = "<group>"; };
+		47E6CA3115117B69005E6371 /* fann_gng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_gng.c; sourceTree = "<group>"; };
+		47E6CA3215117B69005E6371 /* fann_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_io.c; sourceTree = "<group>"; };
+		47E6CA3315117B69005E6371 /* fann_recurrent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_recurrent.c; sourceTree = "<group>"; };
+		47E6CA3415117B69005E6371 /* fann_som.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_som.c; sourceTree = "<group>"; };
+		47E6CA3515117B69005E6371 /* fann_sparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_sparse.c; sourceTree = "<group>"; };
+		47E6CA3615117B69005E6371 /* fann_train.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_train.c; sourceTree = "<group>"; };
+		47E6CA3715117B69005E6371 /* fann_train_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_train_data.c; sourceTree = "<group>"; };
+		47E6CA3815117B69005E6371 /* floatfann.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = floatfann.c; sourceTree = "<group>"; };
+		47E6CA3A15117B69005E6371 /* compat_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compat_time.h; sourceTree = "<group>"; };
+		47E6CA3B15117B69005E6371 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		47E6CA3C15117B69005E6371 /* fann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann.h; sourceTree = "<group>"; };
+		47E6CA3D15117B69005E6371 /* fann_activation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_activation.h; sourceTree = "<group>"; };
+		47E6CA3E15117B69005E6371 /* fann_cascade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_cascade.h; sourceTree = "<group>"; };
+		47E6CA3F15117B69005E6371 /* fann_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_data.h; sourceTree = "<group>"; };
+		47E6CA4015117B69005E6371 /* fann_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_error.h; sourceTree = "<group>"; };
+		47E6CA4115117B69005E6371 /* fann_generic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_generic.h; sourceTree = "<group>"; };
+		47E6CA4215117B69005E6371 /* fann_gng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_gng.h; sourceTree = "<group>"; };
+		47E6CA4315117B69005E6371 /* fann_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_internal.h; sourceTree = "<group>"; };
+		47E6CA4415117B69005E6371 /* fann_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_io.h; sourceTree = "<group>"; };
+		47E6CA4515117B69005E6371 /* fann_recurrent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_recurrent.h; sourceTree = "<group>"; };
+		47E6CA4615117B69005E6371 /* fann_som.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_som.h; sourceTree = "<group>"; };
+		47E6CA4715117B69005E6371 /* fann_sparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_sparse.h; sourceTree = "<group>"; };
+		47E6CA4815117B69005E6371 /* fann_train.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_train.h; sourceTree = "<group>"; };
+		47E6CA4915117B69005E6371 /* floatfann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floatfann.h; sourceTree = "<group>"; };
+		47E6CA4C15117B69005E6371 /* fann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann.h; sourceTree = "<group>"; };
+		47E6CA4F15117B69005E6371 /* fann.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann.c; sourceTree = "<group>"; };
+		47E6CA5015117B69005E6371 /* fann_cl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fann_cl.cpp; sourceTree = "<group>"; };
+		47E6CA5115117B69005E6371 /* fann_cl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_cl.h; sourceTree = "<group>"; };
+		47E6CA5215117B69005E6371 /* fann_cl_ann.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_cl_ann.c; sourceTree = "<group>"; };
+		47E6CA5315117B69005E6371 /* fann_cl_ann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_cl_ann.h; sourceTree = "<group>"; };
+		47E6CA5415117B69005E6371 /* fann_cl_kernel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_cl_kernel.c; sourceTree = "<group>"; };
+		47E6CA5515117B69005E6371 /* fann_cl_kernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_cl_kernel.h; sourceTree = "<group>"; };
+		47E6CA5615117B69005E6371 /* fann_cl_run.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_cl_run.c; sourceTree = "<group>"; };
+		47E6CA5715117B69005E6371 /* fann_cl_run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_cl_run.h; sourceTree = "<group>"; };
+		47E6CA5815117B69005E6371 /* fann_cl_train.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_cl_train.c; sourceTree = "<group>"; };
+		47E6CA5915117B69005E6371 /* fann_cl_train.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_cl_train.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47A18511150FE3F900AF0521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A18518150FE42100AF0521 /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		47A184D8150FDFEB00AF0521 = {
 			isa = PBXGroup;
 			children = (
+				47E6CA2B15117B69005E6371 /* src */,
+				47A184F9150FE0E100AF0521 /* OpenCL.framework */,
+				47A184F5150FE0D000AF0521 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		47A184F5150FE0D000AF0521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47A18514150FE3F900AF0521 /* libfann_opencl.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47E6CA2B15117B69005E6371 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				47E6CA2C15117B69005E6371 /* fann.c */,
+				47E6CA2D15117B69005E6371 /* fann_base.c */,
+				47E6CA2E15117B69005E6371 /* fann_cascade.c */,
+				47E6CA2F15117B69005E6371 /* fann_error.c */,
+				47E6CA3015117B69005E6371 /* fann_generic.c */,
+				47E6CA3115117B69005E6371 /* fann_gng.c */,
+				47E6CA3215117B69005E6371 /* fann_io.c */,
+				47E6CA3315117B69005E6371 /* fann_recurrent.c */,
+				47E6CA3415117B69005E6371 /* fann_som.c */,
+				47E6CA3515117B69005E6371 /* fann_sparse.c */,
+				47E6CA3615117B69005E6371 /* fann_train.c */,
+				47E6CA3715117B69005E6371 /* fann_train_data.c */,
+				47E6CA3815117B69005E6371 /* floatfann.c */,
+				47E6CA3915117B69005E6371 /* include */,
+				47E6CA4D15117B69005E6371 /* optimized */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		47E6CA3915117B69005E6371 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				47E6CA3A15117B69005E6371 /* compat_time.h */,
+				47E6CA3B15117B69005E6371 /* config.h */,
+				47E6CA3C15117B69005E6371 /* fann.h */,
+				47E6CA3D15117B69005E6371 /* fann_activation.h */,
+				47E6CA3E15117B69005E6371 /* fann_cascade.h */,
+				47E6CA3F15117B69005E6371 /* fann_data.h */,
+				47E6CA4015117B69005E6371 /* fann_error.h */,
+				47E6CA4115117B69005E6371 /* fann_generic.h */,
+				47E6CA4215117B69005E6371 /* fann_gng.h */,
+				47E6CA4315117B69005E6371 /* fann_internal.h */,
+				47E6CA4415117B69005E6371 /* fann_io.h */,
+				47E6CA4515117B69005E6371 /* fann_recurrent.h */,
+				47E6CA4615117B69005E6371 /* fann_som.h */,
+				47E6CA4715117B69005E6371 /* fann_sparse.h */,
+				47E6CA4815117B69005E6371 /* fann_train.h */,
+				47E6CA4915117B69005E6371 /* floatfann.h */,
+				47E6CA4A15117B69005E6371 /* optimized */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		47E6CA4A15117B69005E6371 /* optimized */ = {
+			isa = PBXGroup;
+			children = (
+				47E6CA4B15117B69005E6371 /* opencl */,
+			);
+			path = optimized;
+			sourceTree = "<group>";
+		};
+		47E6CA4B15117B69005E6371 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				47E6CA4C15117B69005E6371 /* fann.h */,
+			);
+			path = opencl;
+			sourceTree = "<group>";
+		};
+		47E6CA4D15117B69005E6371 /* optimized */ = {
+			isa = PBXGroup;
+			children = (
+				47E6CA4E15117B69005E6371 /* opencl */,
+			);
+			path = optimized;
+			sourceTree = "<group>";
+		};
+		47E6CA4E15117B69005E6371 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				47E6CA4F15117B69005E6371 /* fann.c */,
+				47E6CA5015117B69005E6371 /* fann_cl.cpp */,
+				47E6CA5115117B69005E6371 /* fann_cl.h */,
+				47E6CA5215117B69005E6371 /* fann_cl_ann.c */,
+				47E6CA5315117B69005E6371 /* fann_cl_ann.h */,
+				47E6CA5415117B69005E6371 /* fann_cl_kernel.c */,
+				47E6CA5515117B69005E6371 /* fann_cl_kernel.h */,
+				47E6CA5615117B69005E6371 /* fann_cl_run.c */,
+				47E6CA5715117B69005E6371 /* fann_cl_run.h */,
+				47E6CA5815117B69005E6371 /* fann_cl_train.c */,
+				47E6CA5915117B69005E6371 /* fann_cl_train.h */,
+			);
+			path = opencl;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47A18512150FE3F900AF0521 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E6CA6715117B69005E6371 /* compat_time.h in Headers */,
+				47E6CA6815117B69005E6371 /* config.h in Headers */,
+				47E6CA6A15117B69005E6371 /* fann_activation.h in Headers */,
+				47E6CA6B15117B69005E6371 /* fann_cascade.h in Headers */,
+				47E6CA6C15117B69005E6371 /* fann_data.h in Headers */,
+				47E6CA6D15117B69005E6371 /* fann_error.h in Headers */,
+				47E6CA6E15117B69005E6371 /* fann_generic.h in Headers */,
+				47E6CA6F15117B69005E6371 /* fann_gng.h in Headers */,
+				47E6CA7015117B69005E6371 /* fann_internal.h in Headers */,
+				47E6CA7115117B69005E6371 /* fann_io.h in Headers */,
+				47E6CA7215117B69005E6371 /* fann_recurrent.h in Headers */,
+				47E6CA7315117B69005E6371 /* fann_som.h in Headers */,
+				47E6CA7415117B69005E6371 /* fann_sparse.h in Headers */,
+				47E6CA7515117B69005E6371 /* fann_train.h in Headers */,
+				47E6CA7615117B69005E6371 /* floatfann.h in Headers */,
+				47E6CA7715117B69005E6371 /* fann.h in Headers */,
+				47E6CA6915117B69005E6371 /* fann.h in Headers */,
+				47E6CA7A15117B69005E6371 /* fann_cl.h in Headers */,
+				47E6CA7C15117B69005E6371 /* fann_cl_ann.h in Headers */,
+				47E6CA7E15117B69005E6371 /* fann_cl_kernel.h in Headers */,
+				47E6CA8015117B69005E6371 /* fann_cl_run.h in Headers */,
+				47E6CA8215117B69005E6371 /* fann_cl_train.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47A18513150FE3F900AF0521 /* fann_opencl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A18515150FE3FA00AF0521 /* Build configuration list for PBXNativeTarget "fann_opencl" */;
+			buildPhases = (
+				47A18510150FE3F900AF0521 /* Sources */,
+				47A18511150FE3F900AF0521 /* Frameworks */,
+				47A18512150FE3F900AF0521 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fann_opencl;
+			productName = fann_opencl;
+			productReference = 47A18514150FE3F900AF0521 /* libfann_opencl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		47A184DA150FDFEB00AF0521 /* Project object */ = {
@@ -30,12 +281,41 @@
 				en,
 			);
 			mainGroup = 47A184D8150FDFEB00AF0521;
+			productRefGroup = 47A184F5150FE0D000AF0521 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				47A18513150FE3F900AF0521 /* fann_opencl */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47A18510150FE3F900AF0521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E6CA8F15117BA2005E6371 /* fann.c in Sources */,
+				47E6CA9015117BA2005E6371 /* fann_cl.cpp in Sources */,
+				47E6CA9115117BA2005E6371 /* fann_cl_ann.c in Sources */,
+				47E6CA9215117BA2005E6371 /* fann_cl_kernel.c in Sources */,
+				47E6CA9315117BA2005E6371 /* fann_cl_run.c in Sources */,
+				47E6CA9415117BA2005E6371 /* fann_cl_train.c in Sources */,
+				47E6CA8D15117B86005E6371 /* fann_train_data.c in Sources */,
+				47E6CA8E15117B86005E6371 /* floatfann.c in Sources */,
+				47E6CA8315117B86005E6371 /* fann_base.c in Sources */,
+				47E6CA8815117B86005E6371 /* fann_io.c in Sources */,
+				47E6CA8615117B86005E6371 /* fann_generic.c in Sources */,
+				47E6CA8B15117B86005E6371 /* fann_sparse.c in Sources */,
+				47E6CA8915117B86005E6371 /* fann_recurrent.c in Sources */,
+				47E6CA8A15117B86005E6371 /* fann_som.c in Sources */,
+				47E6CA8515117B86005E6371 /* fann_error.c in Sources */,
+				47E6CA8715117B86005E6371 /* fann_gng.c in Sources */,
+				47E6CA8415117B86005E6371 /* fann_cascade.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		47A184DF150FDFEB00AF0521 /* Debug */ = {
@@ -50,6 +330,57 @@
 			};
 			name = Release;
 		};
+		47A18516150FE3FA00AF0521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		47A18517150FE3FA00AF0521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -58,6 +389,15 @@
 			buildConfigurations = (
 				47A184DF150FDFEB00AF0521 /* Debug */,
 				47A184E0150FDFEB00AF0521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A18515150FE3FA00AF0521 /* Build configuration list for PBXNativeTarget "fann_opencl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A18516150FE3FA00AF0521 /* Debug */,
+				47A18517150FE3FA00AF0521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,59 @@
+FANN_FLO_2.1
+Network Description:
+	num_layers=2
+	num_inputs=2
+	Layer Description:
+		num_neurons=1
+		type=connected_any_any
+		Neuron Description:
+			num_outputs=3
+			type=connected_any_any
+	Layer Description:
+		num_neurons=1
+		type=connected_any_any
+		Neuron Description:
+			num_outputs=1
+			type=connected_any_any
+Network Data:
+	learning_rate=0.700000
+	connection_rate=0.000000
+	network_type=0
+	learning_momentum=0.000000
+	training_algorithm=2
+	train_error_function=1
+	train_stop_function=1
+	cascade_output_change_fraction=0.010000
+	quickprop_decay=-0.000100
+	quickprop_mu=1.750000
+	rprop_increase_factor=1.200000
+	rprop_decrease_factor=0.500000
+	rprop_delta_min=0.000000
+	rprop_delta_max=50.000000
+	rprop_delta_zero=0.100000
+	cascade_output_stagnation_epochs=12
+	cascade_candidate_change_fraction=0.010000
+	cascade_candidate_stagnation_epochs=12
+	cascade_max_out_epochs=150
+	cascade_min_out_epochs=50
+	cascade_max_cand_epochs=150
+	cascade_min_cand_epochs=50
+	cascade_num_candidate_groups=2
+	bit_fail_limit=9.99999977648258209229e-03
+	cascade_candidate_limit=1.00000000000000000000e+03
+	cascade_weight_multiplier=4.00000005960464477539e-01
+	cascade_activation_functions_count=10
+	cascade_activation_functions=3 5 7 8 10 11 14 15 16 17 
+	cascade_activation_steepnesses_count=4
+	cascade_activation_steepnesses=2.50000000000000000000e-01 5.00000000000000000000e-01 7.50000000000000000000e-01 1.00000000000000000000e+00 
+	scale_included=0
+	Layer data:
+		Neuron Data
+			activation_function=5
+			activation_steepness=1.00000000000000000000e+00
+			weights=-1.78264737129211425781e+00 -2.20884680747985839844e+00 1.69217169284820556641e+00 2.70275831222534179688e+00 2.22557759284973144531e+00 1.97507059574127197266e+00 1.07140636444091796875e+00 -1.17437672615051269531e+00 2.29440808296203613281e+00 
+	Layer data:
+		Neuron Data
+			activation_function=5
+			activation_steepness=1.00000000000000000000e+00
+			weights=2.79513835906982421875e+00 2.87716770172119140625e+00 -1.43630445003509521484e+00 -1.30895698070526123047e+00 
+
